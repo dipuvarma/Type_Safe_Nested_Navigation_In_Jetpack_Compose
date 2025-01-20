@@ -22,7 +22,6 @@ fun MainScreenUI(
             BottomNavBar(homeNavController)
         }
     ) { paddingValues ->
-        // Box containing NavHost for screen navigation
         NavHost(
             navController = homeNavController,
             startDestination = HomeScreen
