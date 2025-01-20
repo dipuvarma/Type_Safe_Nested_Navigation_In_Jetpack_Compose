@@ -39,39 +39,8 @@ fun MainScreenUI(
             composable<ProfileScreen> {
                 ProfileScreenUI(paddingValues)
             }
-
         }
     }
-    }
+}
 
 
-//@Composable
-//fun MainNavGraph(
-//    navController: NavController,
-//    innerPadding: PaddingValues,
-//    homeNavController: NavHostController = rememberNavController(),
-//    selectedItem: Int
-//) {
-//    NavHost(
-//        navController = homeNavController,
-//        startDestination = HomeScreen
-//    ) {
-//        when (selectedItem) {
-//            0 -> composable<HomeScreen> {
-//                HomeContentUI(navController, innerPadding)
-//            }
-//
-//            1 -> composable<AllBookScreen> {
-//                AllBookScreenUI(innerPadding)
-//            }
-//
-//            2 -> composable<SaveBookScreen> {
-//                SaveBookScreenUI(innerPadding)
-//            }
-//
-//            3 -> composable<SaveBookScreen> {
-//                ProfileScreenUI(innerPadding)
-//            }
-//        }
-//    }
-//}
